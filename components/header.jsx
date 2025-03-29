@@ -9,6 +9,7 @@ import {
   
   BookOpen,
   StarsIcon,
+  FileSearch,
 } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
@@ -72,6 +73,15 @@ export default async function Header() {
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link
+                    href="/resumeanalyzer"
+                    className="flex items-center gap-2"
+                  >
+                    <FileSearch className="h-4 w-4" />
+                    Resume Analyzer
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
                     href="/ai-cover-letter"
                     className="flex items-center gap-2"
                   >
@@ -85,6 +95,7 @@ export default async function Header() {
                     Interview Prep
                   </Link>
                 </DropdownMenuItem>
+               
 
               
                 <DropdownMenuItem asChild>
@@ -96,6 +107,7 @@ export default async function Header() {
                     Study Resources
                   </Link>
                 </DropdownMenuItem>
+
 
 
               </DropdownMenuContent>
