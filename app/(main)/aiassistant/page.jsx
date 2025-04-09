@@ -46,8 +46,8 @@ export default function AIAssistant() {
     <div className="flex justify-center mt-4">
       <Card className="w-full max-w-2xl bg-black border-white">
         <CardHeader>
-          <CardTitle className="text-2xl font-semibold">How can i help you</CardTitle>
-          <CardDescription>Ask your questions and get magical solutions.</CardDescription>
+          <CardTitle className="text-2xl font-semibold">How can i help you ?</CardTitle>
+          <CardDescription>Ask your questions and get magical solutions (only study related Doubts).</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4 w-full max-w-2xl">
           <div className="space-y-2">
@@ -67,6 +67,7 @@ export default function AIAssistant() {
               <ReactMarkdown className="text-sm font-medium text-gray-300 leading-snug">
                 {response}
               </ReactMarkdown>
+              
             </div>
           )}
         </CardContent>

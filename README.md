@@ -23,5 +23,5 @@ GEMINI_API_KEY=
 
 ![image](https://github.com/user-attachments/assets/959f51ca-f7a1-4904-b1b3-efe5ba31a28b)
 
-                                                    Made with 💗 by Team WaveSetters
+                                                    Made with 💗 by Team Rahul
 

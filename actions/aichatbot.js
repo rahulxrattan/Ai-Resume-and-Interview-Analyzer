@@ -13,7 +13,7 @@ const customResponses = [
   { pattern: /how to use /i, response: "Users need to sign up via Google or email, then enter their details such as specialization and experience. Based on this, they receive insights about salaries, job requirements, and access to AI-powered career growth tools." },
   { pattern: /features of proprep/i, response: "Proprep offers AI Resume Maker, AI Cover Letter Generator, personalized mock tests, and industry insights—all in one place." },
   { pattern: /who created proprep/i, response: "Wave Setters is a team participating in GNA Hackathon 3.0, dedicated to building AI-powered career tools." }
-  ,{ pattern: /rahul/i, response: "Rahul is the team leader of Team including Amit Sir, Jaspreet, Ishit and Manjot WaveSetters in Hackathon." }
+  ,{ pattern: /rahul/i, response: "Rahul is the owner of this Project." }
 
 ];
 
