@@ -15,7 +15,7 @@ export async function POST(req) {
   }
   const query = queryParts.filter(Boolean).join(' ');
 
-  const serpApiKey = process.env.NEXT_PUBLIC_SERP_API_KEY;
+  const serpApiKey = process.env.SERP_API_KEY;
   const params = new URLSearchParams({
     engine: "google_jobs",
     q: query,
