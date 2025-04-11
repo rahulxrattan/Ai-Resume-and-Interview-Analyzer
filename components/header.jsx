@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
+import { Trophy } from "lucide-react";
+
 import {
   PenBox,
   LayoutDashboard,
@@ -105,6 +107,16 @@ export default async function Header() {
                   >
                     <BookOpen className="h-4 w-4" />
                     Study Resources
+                  </Link>
+                </DropdownMenuItem>
+
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/jobs"
+                    className="flex items-center gap-2"
+                  >
+                    <Trophy className="h-4 w-4" />
+                    Find a Job
                   </Link>
                 </DropdownMenuItem>
 
